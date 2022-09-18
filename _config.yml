@@ -1,0 +1,36 @@
+title: sharadcodes
+slogan: all you need to kNow
+logo: "assets/uploads/profile.jpg"
+
+# baseurl: ""
+url: "https://sharadcodes.github.io"
+
+collections:
+  notes:
+    output: true
+    permalink: notes/:categories/:year/:month/:day/:title:output_ext
+
+defaults:
+  - scope:
+      path: _posts
+    values:
+      layout: post
+      author: Sharad Raj
+  # - scope:
+  #     path: _notes
+  #   values:
+  #     layout: note
+  #     author: Sharad Raj
+  #     permalink: notes/:categories/:year/:month/:day/:title:output_ext      
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+  # - jekyll-paginate
+  - kramdown
+
+markdown: kramdown
+# paginate: 5
+# paginate_path: "/page:num"
