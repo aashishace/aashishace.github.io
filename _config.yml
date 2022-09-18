@@ -15,12 +15,12 @@ defaults:
       path: _posts
     values:
       layout: post
-      author: Sharad Raj
+      author: Aashish Ace
   # - scope:
   #     path: _notes
   #   values:
   #     layout: note
-  #     author: Sharad Raj
+  #     author: Aashish Ace
   #     permalink: notes/:categories/:year/:month/:day/:title:output_ext      
 
 plugins:
