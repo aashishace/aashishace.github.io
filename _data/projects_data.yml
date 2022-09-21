@@ -1,9 +1,9 @@
 projects:
-  - title: Naya Tab Extension
-    img: /assets/uploads/nte.png
-    img_alt: Naya Tab Extension
-    about: A new tab extension for Chrome/Brave/Firefox/Edge or any chromium based browser. Search for "Naya Tab" on webstore/mozilla addons/edge webstore to install it.
-    link: https://sharadcodes.github.io/web_extensions/2022/09/13/naya-tab.html
+  - title: Best Deals On Samsung Smartphones
+    img: /assets/uploads/phone_offers.png
+    img_alt: Smasung Phone Offers
+    about: at this Great Indian Sale get your best of Samsung Smarphones 
+    link: https://www.amazon.in/deal/9c4ba9e2?_encoding=UTF8&linkCode=r02&tag=recommendbyac-21&linkId=amzn1.deals-promotions.A21TJRUUN4KGV.9c4ba9e2_1663773223630&ref_=ihub_rc_td_c_deals-promotions_9c4ba9e2
   
   - title: AnjaniBooks Vendor Hub
     img: /assets/uploads/abvh.png
