@@ -1,25 +1,24 @@
 name: Aashish Ace
 dp: https://avatars.githubusercontent.com/u/25167906?s=400&u=fbe8134f3fe16eca46b0171179d6caaaca898422&v=4
 description: "
-  I am a  Android  Developer / Designer living in New Delhi, India.
+  I am an  Android  Developer / Knows quite a few things about tech & stuff.
   "
 sub-description: ""
 hire: Want to hire me! Just drop a mail
 address: India
-website: https://sharadcodes.github.io
-email: dev_sharad@outlook.com
+website: https://aashishace.github.io
+email: ashishace007@gmail.com
 contact:
-  - title: linkedin
-    url: https://www.linkedin.com/in/srsmaurya
+  - title: instragram
+    url: https://www.instagram.com/in/aashish.ace
   - title: github
-    url: https://github.com/sharadcodes
-  - title: dribbble
-    url: https://dribbble.com/iamsharadraj  
+    url: https://github.com/aashishace
+ 
   - title: twitter
-    url: https://twitter.com/iamsharadraj
+    url: https://twitter.com/ashishace007
   - title: dev
-    url: https://dev.to/sharadcodes
+    url: https://dev.to/aashish.ace
   # - title: stackOverflow
-  #   url: https://stackoverflow.com/story/iamsharadraj
+  #   url: https://stackoverflow.com/story/aashishace
   - title: email
-    url: mailto:dev_sharad@outlook.com
+    url: mailto:itsace007@outlook.com
