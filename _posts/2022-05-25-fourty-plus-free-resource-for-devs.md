@@ -12,7 +12,7 @@ Here we go:
 # Great TV's for Greater Offers on AMAZON
 # Budget TV's
 
-#### [• Mi TV Horizon Bestseller ](https://amzn.to/3DJu7WS)
+#### [ Mi TV Horizon Bestseller ](https://amzn.to/3DJu7WS)
 #### [Mi 5A 80 cm (32 inch) Bestseller](http://fkrt.it/zM85E9uuuN/)
 #### [VU Premium TV](https://amzn.to/3LH9Gfq)
 #### [VU Premium TV](http://fkrt.it/7KsdcwNNNN/)
@@ -47,7 +47,7 @@ Here we go:
 #### [Templated](https://templated.co/)
 #### [Bootswatch](https://bootswatch.com/)
 
-# Themes for Static Site Generators
+<!-- # Themes for Static Site Generators
 
 #### [JAMstack themes](https://jamstackthemes.dev/)
 
@@ -67,7 +67,7 @@ Here we go:
 #### [Web Components](https://www.webcomponents.org/)
 #### [Material UI](https://material-ui.com/)
 #### [Ant Design](https://ant.design/)
-#### [Ionic Web Components](https://ionicframework.com/)
+#### [Ionic Web Components](https://ionicframework.com/) -->
 
 ---
 
