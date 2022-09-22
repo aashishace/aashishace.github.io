@@ -2,7 +2,7 @@
 layout: page
 title: DBMS UNIT 1 NOTES PART 1
 categories: DBMS
-author: Sharad Raj
+author: Aashish Ace
 date: 2020-02-07
 ---
 
