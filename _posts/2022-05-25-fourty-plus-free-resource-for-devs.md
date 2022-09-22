@@ -7,67 +7,41 @@ date: 2022-05-24
 
 Best of TV Deals from **AMAZON** and **Flipkart** from  **32**  to **65 INCH** SMART and NON SMART TV's.
 
-Here we go:
+![image](https://m.media-amazon.com/images/I/71L-lTQnJiL._AC_SX615_SY462_.jpg)
 
-# Great TV's for Greater Offers on AMAZON
-# Budget TV's
+# Best TV Deal on AMAZON!
 
-#### [ Mi TV Horizon Bestseller ](https://amzn.to/3DJu7WS)
-#### [Mi 5A 80 cm (32 inch) Bestseller](http://fkrt.it/zM85E9uuuN/)
-#### [VU Premium TV](https://amzn.to/3LH9Gfq)
-#### [VU Premium TV](http://fkrt.it/7KsdcwNNNN/)
-#### [Error 404](https://error404.fun/)
-#### [Avataaars](https://avataaars.com/)
-#### [Open Peeps](https://www.openpeeps.com/)
-#### [Open Doodles](https://www.opendoodles.com/)
-#### [Black illustrations](https://www.blackillustrations.com/)
+I am here curating best deals for TV with great offers and configurations **Happy Buying⭐️ Stars**.
 
-# Premium TV's
+## Budget TV's - 32 Inch
 
-#### [Bootstrap icons](https://icons.getbootstrap.com/)
-#### [Ionicons](https://ionicons.com/)
-#### [Material Icons](https://material.io/resources/icons)
-#### [Icons8](https://icons8.com/)
-#### [Flaticons](https://www.flaticon.com/)
-#### [Feather icons](https://feathericons.com/)
-#### [Hero icons](https://heroicons.dev/)
-#### [Browser Logos](https://github.com/alrra/browser-logos/)
-#### [Icon Bros](https://www.iconbros.com/)
-#### [Cryptocurrency Icons](http://cryptoicons.co/)
-#### [Simple Icons](https://simpleicons.org/)
+###### In the budget segment, I am listing TV's from [Amazon](https://amzn.to/3LBhYWb) and [Flipkart](http://fkrt.it/7D0yEMNNNN/) Both that are under 15000 with great offers included. Check out the description for bank offers and coupons.
 
-# Templates
 
-#### [Tailwind Toolbox](https://www.tailwindtoolbox.com/)
-#### [Bulma Themes](https://bulmathemes.com/)
-#### [Creative Tim](https://www.creative-tim.com/)
-#### [Start Bootstrap](https://startbootstrap.com/)
-#### [Hacker Themes](https://hackerthemes.com/)
-#### [Colorlib](https://colorlib.com/wp/templates/)
-#### [Templated](https://templated.co/)
-#### [Bootswatch](https://bootswatch.com/)
 
-<!-- # Themes for Static Site Generators
+> See the options
 
-#### [JAMstack themes](https://jamstackthemes.dev/)
 
-# Color & Other Tools
+| TV| TYPE  | BUY|
+| --- | --- | --- |
+|  Mi TV Horizon| HD READY | [https://amzn.to/3DJu7WS](https://amzn.to/3DJu7WS)|
+|  Mi 5A | HD READY | [http://fkrt.it/zM85E9uuuN](http://fkrt.it/zM85E9uuuN/)|
+|  VU Premium | HD READY | [https://amzn.to/3LH9Gfq)](https://amzn.to/3LH9Gfq))|
+|VU Premium| HD READY | [http://fkrt.it/7KsdcwNNNN/](http://fkrt.it/7KsdcwNNNN/)|
 
-#### [Brumm.af - Box shadows](https://brumm.af/shadows)
-#### [Google Material Color Tool](https://material.io/resources/color)
-#### [Coolors](https://coolors.co/)
-#### [Material Ui Colors](https://www.materialui.co/colors)
-#### [Material Color Pallet](https://www.materialpalette.com/colors)
-#### [Paletton](https://paletton.com/)
-#### [Scheme Color - PredBuilt Schemes](https://www.schemecolor.com/)
-#### [Color Combos](https://www.colorcombos.com/)
 
-# Frameworks & Libs
+## Features
 
-#### [Web Components](https://www.webcomponents.org/)
-#### [Material UI](https://material-ui.com/)
-#### [Ant Design](https://ant.design/)
-#### [Ionic Web Components](https://ionicframework.com/) -->
+
+* Screen Size	: 32 Inches
+
+* Supported: Internet Services	Netflix, Prime Video, Zee5, Eros Now, SonyLiv, Youtube, Hotstar
+* Display Technology	LED
+* Resolution	720p
+* Refresh Rate	60 Hz
+* Special Feature	Android TV 9 | Mi Quick Wake - Wake TV Under 5 secs | PatchWall | Supported Apps: Netflix | Prime Video | Disney+ Hotstar | YouTube | 5000+ apps from Google Play Store | PatchWall - 23+ Content * * Partners|Kids Mode with Parental Lock| Smart Curation|Universal search|Collection - Spend less time browsing for finding the right content android TV 9 | Mi Quick Wake - Wake TV Under 5 secs | PatchWall | Supported Apps: Netflix | Prime Video | Disney+ Hotstar | YouTube | 5000+ apps from Google
+* Connector Type	Wi-Fi
+
 
 ---
 
