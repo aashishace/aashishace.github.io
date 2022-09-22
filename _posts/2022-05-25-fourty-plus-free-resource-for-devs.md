@@ -27,20 +27,40 @@ I am here curating best deals for TV with great offers and configurations **Happ
 |  Mi TV Horizon| HD READY | [https://amzn.to/3DJu7WS](https://amzn.to/3DJu7WS)|
 |  Mi 5A | HD READY | [http://fkrt.it/zM85E9uuuN](http://fkrt.it/zM85E9uuuN/)|
 |  VU Premium | HD READY | [https://amzn.to/3LH9Gfq)](https://amzn.to/3LH9Gfq))|
+|  VU Premium | HD READY | [http://fkrt.it/7KsdcwNNNN/](http://fkrt.it/7KsdcwNNNN/)|
+|  OnePlus Y1S | HD READY | [https://amzn.to/3LEzcSj](https://amzn.to/3LEzcSj)|
+|  OnePlus Y1S | HD READY | [http://fkrt.it/lZxRFquuuN](http://fkrt.it/lZxRFquuuN)|
+|  Hisense E4G | HD READY | [http://fkrt.it/WiL5gJNNNN](http://fkrt.it/WiL5gJNNNN)|
+
+
+
+
+## Premium TV's - 32 
+
+
+|  Sony Bravia  | HD READY | [https://amzn.to/3BEklmd)](https://amzn.to/3BEklmd)|
+|  Sony Bravia  | ANDROID  | [https://amzn.to/3So0Ipp/](https://amzn.to/3So0Ipp/)|
+
+## Premium TV's - 65 
+
+###### In the budget segment, I am listing TV's from [Amazon](https://amzn.to/3LBhYWb) and [Flipkart](http://fkrt.it/7D0yEMNNNN/) Both that are under 15000 with great offers included. Check out the description for bank offers and coupons.
+
+
+
+> See the options
+
+
+| TV| TYPE  | BUY|
+| --- | --- | --- |
+|  Mi TV Horizon| HD READY | [https://amzn.to/3DJu7WS](https://amzn.to/3DJu7WS)|
+|  Mi 5A | HD READY | [http://fkrt.it/zM85E9uuuN](http://fkrt.it/zM85E9uuuN/)|
+|  VU Premium | HD READY | [https://amzn.to/3LH9Gfq)](https://amzn.to/3LH9Gfq))|
 |VU Premium| HD READY | [http://fkrt.it/7KsdcwNNNN/](http://fkrt.it/7KsdcwNNNN/)|
 
 
 ## Features
 
 
-* Screen Size	: 32 Inches
-
-* Supported: Internet Services	Netflix, Prime Video, Zee5, Eros Now, SonyLiv, Youtube, Hotstar
-* Display Technology	LED
-* Resolution	720p
-* Refresh Rate	60 Hz
-* Special Feature	Android TV 9 | Mi Quick Wake - Wake TV Under 5 secs | PatchWall | Supported Apps: Netflix | Prime Video | Disney+ Hotstar | YouTube | 5000+ apps from Google Play Store | PatchWall - 23+ Content * * Partners|Kids Mode with Parental Lock| Smart Curation|Universal search|Collection - Spend less time browsing for finding the right content android TV 9 | Mi Quick Wake - Wake TV Under 5 secs | PatchWall | Supported Apps: Netflix | Prime Video | Disney+ Hotstar | YouTube | 5000+ apps from Google
-* Connector Type	Wi-Fi
 
 
 ---
