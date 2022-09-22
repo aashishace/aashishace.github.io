@@ -2,7 +2,7 @@
 layout: post
 title: A script to ping the heroku app dyno and prevent it  from sleeping
 categories: SCRIPTS
-author: Sharad Raj
+author: Aashish Ace
 date: '2020-02-04 12:00:00'
 ---
 # herokuapp_pinger

@@ -2,7 +2,7 @@
 layout: post
 title: What is Golang and how to install it
 categories: GOLANG
-author: Sharad Raj
+author: Aashish Ace
 image: /assets/uploads/go.png
 date: '2019-11-13 12:00:00'
 ---
