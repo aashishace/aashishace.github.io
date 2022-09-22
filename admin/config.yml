@@ -15,7 +15,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "select", default: "post", options: ['post', 'page', 'page_with_sidebar'], required: true}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Categories", name: "categories", widget: "string", required: true}
-      - {label: "Author", name: "author", widget: "string", default: "Sharad Raj", required: true}
+      - {label: "Author", name: "author", widget: "string", default: "Aashish Ace", required: true}
       - label: "Featured Image"
         name: "image"
         widget: "image"

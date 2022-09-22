@@ -1,7 +1,7 @@
-name: Aashish Ace
+name: Recommended by Ace
 dp: https://avatars.githubusercontent.com/u/25167906?s=400&u=fbe8134f3fe16eca46b0171179d6caaaca898422&v=4
 description: "
-  I am an  Android  Developer / Knows quite a few things about tech & stuff.
+   Shopping recommendation for you on the AMAZON's The Great Indian Sale and Flipkart's Big Billion Days.
   "
 sub-description: ""
 hire: Want to hire me! Just drop a mail
@@ -9,15 +9,15 @@ address: India
 website: https://aashishace.github.io
 email: ashishace007@gmail.com
 contact:
-  - title: instragram
-    url: https://www.instagram.com/in/aashish.ace
+  - title: instagram
+    url: https://www.instagram.com/aashish.ace
   - title: github
     url: https://github.com/aashishace
  
   - title: twitter
     url: https://twitter.com/ashishace007
   - title: dev
-    url: https://dev.to/aashish.ace
+    url: https://dev.to/aashishace
   # - title: stackOverflow
   #   url: https://stackoverflow.com/story/aashishace
   - title: email
