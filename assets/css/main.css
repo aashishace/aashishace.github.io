@@ -351,13 +351,13 @@ main {
 }
 
 .page a {
-  color: #0f0;
+  color: rgb(51, 37, 1);
   padding: 0 5px;
 }
 
 .page a:hover {
   color: var(--dark-2);
-  background-color: #0f0;
+  background-color: rgb(27, 28, 1);
 }
 
 .page ul,
