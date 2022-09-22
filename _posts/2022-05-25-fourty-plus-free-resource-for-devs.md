@@ -11,18 +11,19 @@ Best of TV Deals from **AMAZON** and **Flipkart** from  **32**  to **65 INCH** S
 Here we go:
 
 # Great TV's for Greater Offers on AMAZON
+# Budget TV's
 
-#### [Humaaans](https://www.humaaans.com/)
-#### [Undraw](https://undraw.co/)
-#### [Illlustrations](https://illlustrations.co/)
-#### [UIspace](https://uispace.net/)
+#### [• Mi TV Horizon Bestseller ](https://amzn.to/3DJu7WS)
+#### [Mi 5A 80 cm (32 inch) Bestseller](http://fkrt.it/zM85E9uuuN/)
+#### [VU Premium TV](https://amzn.to/3LH9Gfq)
+#### [VU Premium TV](http://fkrt.it/7KsdcwNNNN/)
 #### [Error 404](https://error404.fun/)
 #### [Avataaars](https://avataaars.com/)
 #### [Open Peeps](https://www.openpeeps.com/)
 #### [Open Doodles](https://www.opendoodles.com/)
 #### [Black illustrations](https://www.blackillustrations.com/)
 
-# Icons
+# Premium TV's
 
 #### [Bootstrap icons](https://icons.getbootstrap.com/)
 #### [Ionicons](https://ionicons.com/)
