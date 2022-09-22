@@ -12,13 +12,13 @@
 } */
 
 :root {
-  --dark-1: #ef9a9a;
+  --dark-1: #FEDBD0;
   --dark-2: #ba6b6c;
-  --dark-3: #ffcccb;
-  --light-1: #000000;
-  --light-2: #002fff;
+  --dark-3: #feeae6;
+  --light-1: #442C2E;
+  --light-2: #442C2E;
   --light-3: #ffdda7;
-  --light-4: #292d3e;
+  --light-4: #000000;
 }
 
 * {
