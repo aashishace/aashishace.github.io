@@ -1,15 +1,16 @@
 ---
 layout: post
-title: 40+ Free Resources for Web Development
-categories: WEBDEV
-date: 2022-05-24
+title: Super Hot TV DEALS
+categories: TVDEALS
+image: /assets/uploads/tv_deals.png
+date: 2022-09-23
 ---
 
-As a programmer we always look for high quality free resources for our projects, so here is my list of **50+** free resource.
+Best of TV Deals from **AMAZON** and **Flipkart** from  **32**  to **65 INCH** SMART and NON SMART TV's.
 
 Here we go:
 
-# Illustrations & Ui Stuff
+# Great TV's for Greater Offers on AMAZON
 
 #### [Humaaans](https://www.humaaans.com/)
 #### [Undraw](https://undraw.co/)

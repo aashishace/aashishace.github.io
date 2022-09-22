@@ -1,0 +1,50 @@
+---
+layout: post
+title: '"Best of Laptops for you from Amazon and Flipkart :fire:'
+categories: LAPTOP_EXTENSIONS
+author: Aashish Ace
+image: /assets/uploads/laptop_deals.png
+date: 2022-05-24
+---
+
+![Small banner](/assets/uploads/laptop_deals.png "Small banner")
+
+Here i am listing best Of Laptops with Great Configuration and Great Deals.
+
+This new tab extension adds functionality similar to the brave browser's new tab page.
+
+You can add shortcuts to websites and change wallpaper for the new tab page or homepage on your browser.
+
+In short you can:
+* Add shortcuts to websites.
+* Change wallpaper for new tab page.
+
+---
+
+## Download Links
+
+* [Download for Chrome](https://chrome.google.com/webstore/detail/naya-tab-a-new-tab-extens/elkihnemphmfjgflemaaacidldmebpll)
+* [Download for Edge](https://microsoftedge.microsoft.com/addons/detail/naya-tab-a-new-tab-exte/nclaeoangfbocckefkmmiabicmfcpolg)
+* [Download for FireFox](https://addons.mozilla.org/en-US/firefox/addon/naya-tab/)
+
+---
+
+## Screenshots
+
+* ### New Tab Page
+  ![Snap 1](/assets/uploads/nte_s1.png "Snap 1")
+* ### Adding a new Speed Dial Entry
+  ![Snap 2](/assets/uploads/nte_s2.png "Snap 2")
+* ### Editing a Speed Dial Entry 
+![Snap 3](/assets/uploads/nte_s3.png "Snap 3")
+* ### Changing wallpaper 
+![Snap 4](/assets/uploads/nte_s4.png "Snap 4")
+
+---
+
+## Support ME! :moneybag:
+
+<!-- If you like this extension and want support me then you can use support me using:
+
+* [Github Sponsors](https://github.com/sponsors/sharadcodes)
+* For INDIAN users, my UPI ID: `iamsharadraj@okaxis` -->
