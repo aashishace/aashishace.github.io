@@ -166,8 +166,8 @@ projects:
   #     table is generated dynamically from a CSV file on the server.
   #   link: https://sharadcodes.github.io/cdn/csv_to_table/
 
-  - title: Game Of Infinity Stones
-    img: /assets/uploads/ais.png
-    img_alt: Snap
-    about: Collect the Infinity Stones in this amazing JavaScript game
-    link: https://sharadcodes.github.io/the-game-of-infinity-stones/
+  # - title: Game Of Infinity Stones
+  #   img: /assets/uploads/ais.png
+  #   img_alt: Snap
+  #   about: Collect the Infinity Stones in this amazing JavaScript game
+  #   link: https://sharadcodes.github.io/the-game-of-infinity-stones/
