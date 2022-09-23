@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"Best of Laptops for you from Amazon and Flipkart :fire:'
+title: '"Best of Laptops for you from Amazon and Flipkart :fire: :computer: :computer:'
 categories: LAPTOP_EXTENSIONS
 author: Aashish Ace
 image: /assets/uploads/great_indian.jpg

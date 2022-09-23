@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Smartphone Shoopping ... Yay 👨‍💻👩‍💻🤟✌
-date: 2021-01-04 03:40:00 Z
+title: Smartphone Shoopping ... Yay 📱📱 👨‍💻👩‍💻🤟✌
+date: 2022-09-23 03:40:00 Z
 categories: WEBDEV
 ---
 
