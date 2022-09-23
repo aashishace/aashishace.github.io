@@ -3,7 +3,7 @@ layout: post
 title: '"Best of Laptops for you from Amazon and Flipkart :fire:'
 categories: LAPTOP_EXTENSIONS
 author: Aashish Ace
-image: /assets/uploads/laptop_deals.png
+image: /assets/uploads/great_indian.jpg
 date: 2022-05-24
 ---
 
@@ -27,7 +27,6 @@ I am here curating best deals for Laptops with great offers and greater configur
 |  LAPTOPS FROM AMAZON  | [https://amzn.to/3BKkOUi](https://amzn.to/3BKkOUi)|
 |  LAPTOPS ON FLIPKART | [http://fkrt.it/9NnXmguuuN](http://fkrt.it/9NnXmguuuN)|
 
-https://amzn.to/3BKkOUi
 
 ---
 
