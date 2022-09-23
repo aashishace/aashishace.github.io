@@ -1,16 +1,18 @@
 ---
 layout: post
-title: SMARTPHONE Deals Yay 👨‍💻👩‍💻🤟✌
-date: 2022-09-23 03:40:00 Z
+title: Smartphone Shoopping ... Yay 👨‍💻👩‍💻🤟✌
+date: 2021-01-04 03:40:00 Z
 categories: WEBDEV
 ---
 
-![Small banner](https://m.media-amazon.com/images/I/71fVoqRC0wL._SL1500_.jpg "Small banner")
+# Best SMARPHONE Deals on AMAZON! and Flipkart 
 
+![](https://m.media-amazon.com/images/I/71fVoqRC0wL._SL1500_.jpg)
+
+## How to deploy
 # Best SMARPHONE Deals on AMAZON! and Flipkart 
 
 Curated Pages and best deals for Smartphones with great offers and greater configurations **Happy Buying⭐️ Stars**.
-
 
 
 ######  Laptops's from [Amazon](https://amzn.to/3LBhYWb) and [Flipkart](http://fkrt.it/7D0yEMNNNN/) Both Premium and Budget with great offers included. Check out the description for bank offers and coupons.
@@ -33,5 +35,4 @@ Curated Pages and best deals for Smartphones with great offers and greater confi
 
 Join Prime: [https://amzn.to/3Bybqmq](https://amzn.to/3Bybqmq)
 
----
 PS: Don't forget to star :smile:
