@@ -2,7 +2,7 @@
 layout: post
 title: Super Hot TV DEALS
 categories: WEBDEV
-date: 2022-05-24
+date: 2022-09-23
 ---
 
 Best of TV Deals from **AMAZON** and **Flipkart** from  **32**  to **65 INCH** SMART and NON SMART TV's.
