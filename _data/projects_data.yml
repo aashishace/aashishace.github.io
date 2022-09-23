@@ -5,11 +5,11 @@ projects:
     about: Great Indian Sale  
     link: https://amzn.to/3LBhYWb
   
-#   - title: AnjaniBooks Vendor Hub
-#     img: /assets/uploads/abvh.png
-#     img_alt: AnjaniBooks Vendor Hub
-#     about: A freelance project for a client with an online bookstore platform to manage their book vendors across India.
-#     link: https://vh.anjanibooks.com
+  - title: Best Deals on FLIPKART
+    img: /assets/uploads/flipkart_logo.png
+    img_alt: Deals on Fipkart
+    about: Big Billion Days Sale.
+    link: http://fkrt.it/7D0yEMNNNN
     
 #   - title: Akash Gramin Mahila Vikash Samiti
 #     img: /assets/uploads/agmvs.png

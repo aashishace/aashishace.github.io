@@ -5,7 +5,7 @@ date: 2022-09-23 03:40:00 Z
 categories: WEBDEV
 ---
 
-![Small banner](https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/katariy/Events_22/Jupiter_2022/Cat_page/day_1_chnages/MH-2__Banner-2.gif "Small banner")
+![Small banner](https://m.media-amazon.com/images/I/71fVoqRC0wL._SL1500_.jpg "Small banner")
 
 # Best SMARPHONE Deals on AMAZON! and Flipkart 
 
