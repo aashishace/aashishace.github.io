@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Super Hot TV DEALS
+title: '"Super Hot TV Deals for you from Amazon and Flipkart :fire: :fire:'
 categories: WEBDEV
 date: 2022-09-23
 ---
@@ -43,7 +43,7 @@ I am here curating best deals for TV with great offers and configurations **Happ
 
 ## Premium TV's - 65 
 
-###### In the budget segment, I am listing TV's from [Amazon](https://amzn.to/3LBhYWb) and [Flipkart](http://fkrt.it/7D0yEMNNNN/) Both that are under 15000 with great offers included. Check out the description for bank offers and coupons.
+###### In the budget segment, I am listing TV's from [Amazon](https://amzn.to/3LBhYWb) and [Flipkart](http://fkrt.it/7D0yEMNNNN/) Both that Premium and in Budget 42 to 65 Inch with great offers included. Check out the description for bank offers and coupons.
 
 
 
@@ -52,10 +52,10 @@ I am here curating best deals for TV with great offers and configurations **Happ
 
 | TV| TYPE  | BUY|
 | --- | --- | --- |
-|  Mi TV Horizon| HD READY | [https://amzn.to/3DJu7WS](https://amzn.to/3DJu7WS)|
-|  Mi 5A | HD READY | [http://fkrt.it/zM85E9uuuN](http://fkrt.it/zM85E9uuuN/)|
-|  VU Premium | HD READY | [https://amzn.to/3LH9Gfq)](https://amzn.to/3LH9Gfq))|
-|VU Premium| HD READY | [http://fkrt.it/7KsdcwNNNN/](http://fkrt.it/7KsdcwNNNN/)|
+|  Samsung FS 4K QLED TV| 4K Ultra HD Smart | [https://amzn.to/3BGXCGe](https://amzn.to/3BGXCGe)|
+|  LG 4K QLED TV | 4K Ultra HD Smart | [https://amzn.to/3SjNGcI](https://amzn.to/3SjNGcI)|
+|  Sony Bravia | 4K SMART | [https://amzn.to/3Uv15QX)]https://amzn.to/3Uv15QX))|
+|  Sony Bravia | 4K SMART | [https://amzn.to/3UyiwAc](https://amzn.to/3UyiwAc)|
 
 
 ## Features
