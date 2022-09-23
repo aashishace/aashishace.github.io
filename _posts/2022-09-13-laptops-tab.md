@@ -7,38 +7,27 @@ image: /assets/uploads/laptop_deals.png
 date: 2022-05-24
 ---
 
-![Small banner](/assets/uploads/laptop_deals.png "Small banner")
+![Small banner](https://m.media-amazon.com/images/I/71Ncb6z2gfL._SL1500_.jpg "Small banner")
 
-Here i am listing best Of Laptops with Great Configuration and Great Deals.
+# Best Laptop Deal on AMAZON! and Flipkart 
 
-This new tab extension adds functionality similar to the brave browser's new tab page.
+I am here curating best deals for Laptops with great offers and greater configurations **Happy Buying⭐️ Stars**.
 
-You can add shortcuts to websites and change wallpaper for the new tab page or homepage on your browser.
 
-In short you can:
-* Add shortcuts to websites.
-* Change wallpaper for new tab page.
 
----
+######  Laptops's from [Amazon](https://amzn.to/3LBhYWb) and [Flipkart](http://fkrt.it/7D0yEMNNNN/) Both Premium and Budget with great offers included. Check out the description for bank offers and coupons.
 
-## Download Links
 
-* [Download for Chrome](https://chrome.google.com/webstore/detail/naya-tab-a-new-tab-extens/elkihnemphmfjgflemaaacidldmebpll)
-* [Download for Edge](https://microsoftedge.microsoft.com/addons/detail/naya-tab-a-new-tab-exte/nclaeoangfbocckefkmmiabicmfcpolg)
-* [Download for FireFox](https://addons.mozilla.org/en-US/firefox/addon/naya-tab/)
 
----
+> See the options
 
-## Screenshots
 
-* ### New Tab Page
-  ![Snap 1](/assets/uploads/nte_s1.png "Snap 1")
-* ### Adding a new Speed Dial Entry
-  ![Snap 2](/assets/uploads/nte_s2.png "Snap 2")
-* ### Editing a Speed Dial Entry 
-![Snap 3](/assets/uploads/nte_s3.png "Snap 3")
-* ### Changing wallpaper 
-![Snap 4](/assets/uploads/nte_s4.png "Snap 4")
+
+| --- | --- | --- |
+|  LAPTOPS FROM AMAZON  | [https://amzn.to/3BKkOUi](https://amzn.to/3BKkOUi)|
+|  LAPTOPS ON FLIPKART | [http://fkrt.it/9NnXmguuuN](http://fkrt.it/9NnXmguuuN)|
+
+https://amzn.to/3BKkOUi
 
 ---
 
