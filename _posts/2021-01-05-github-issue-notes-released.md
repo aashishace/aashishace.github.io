@@ -1,40 +1,37 @@
 ---
 layout: post
-title: Turn your Github issues into Notes ... Yay 👨‍💻👩‍💻🤟✌
-date: 2021-01-04 03:40:00 Z
+title: SMARTPHONE Deals Yay 👨‍💻👩‍💻🤟✌
+date: 2022-09-23 03:40:00 Z
 categories: WEBDEV
 ---
 
-This theme will turn your repository issues into notes.
+![Small banner](https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/katariy/Events_22/Jupiter_2022/Cat_page/day_1_chnages/MH-2__Banner-2.gif "Small banner")
 
-Also the color of your labels will be used as color for the tags on the site.
+# Best SMARPHONE Deals on AMAZON! and Flipkart 
 
-## Have a look at this [Live demo](https://github-issue-notes-theme.vercel.app)
+Curated Pages and best deals for Smartphones with great offers and greater configurations **Happy Buying⭐️ Stars**.
 
-![](https://dev-to-uploads.s3.amazonaws.com/i/tzk3kr759vwu7jx7ich0.png)
 
-## How to deploy
 
-First of all make sure you use a private repo because in a public repo anyone will be able to make issues & they will appear on your site.
+######  Laptops's from [Amazon](https://amzn.to/3LBhYWb) and [Flipkart](http://fkrt.it/7D0yEMNNNN/) Both Premium and Budget with great offers included. Check out the description for bank offers and coupons.
 
-> My repo with issues
 
-![](https://dev-to-uploads.s3.amazonaws.com/i/op9bwhljju366rupisea.png)
 
-> Few Labels that I made
+> See the options
 
-![](https://dev-to-uploads.s3.amazonaws.com/i/m8aflgb3mgn4e7qiovac.png)
 
-* First step is to change the labels for issues, because you probably dont wanna use the existing labels for your notes, your lables will be used as tags in the notes.
-* Now Fork the project or download
-* Open theme.config.js file and change username and repo name
-* Get a personal access token from github
-* Deploy on vercel and add personal access token as environment variable TOKEN.
-* That's it now your lables will apprear on the sidebar and the issues will apprear on right.
+
+| --- | --- | --- |
+|  Phones FROM AMAZON  | [https://amzn.to/3DNqvU6](https://amzn.to/3DNqvU6)|
+|  Phones ON FLIPKART | [http://fkrt.it/EQ8_fMNNNN](http://fkrt.it/EQ8_fMNNNN)|
+
 
 ---
 
-Github Repo: [https://github.com/sharadcodes/github-issue-notes-theme](https://github.com/sharadcodes/github-issue-notes-theme)
+
+---
+
+Join Prime: [https://amzn.to/3Bybqmq](https://amzn.to/3Bybqmq)
 
 ---
 PS: Don't forget to star :smile:
