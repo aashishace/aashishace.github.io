@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
+import profileImage from '../assets/1728299807332.jpg'
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -43,7 +44,7 @@ const Navigation = () => {
             >
               <div className="w-10 h-10 bg-gradient-to-r from-brand-indigo to-accent-purple rounded-lg flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/favicon.jpg" 
+                  src={profileImage} 
                   alt="Aashish Ace" 
                   className="w-full h-full object-cover rounded-lg"
                 />

@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Heart, ArrowUp } from 'lucide-react'
+import profileImage from '../assets/1728299807332.jpg'
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -83,7 +84,7 @@ const Footer = () => {
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-gradient-to-r from-brand-indigo to-accent-purple rounded-lg flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/favicon.jpg" 
+                  src={profileImage} 
                   alt="Aashish Ace" 
                   className="w-full h-full object-cover rounded-lg"
                 />
