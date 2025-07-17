@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply antialiased;
+  }
+  
+  html {
+    @apply scroll-smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    font-optical-sizing: auto;
+  }
+  
+  body {
+    @apply font-inter text-base leading-base bg-dark-bg text-text-primary;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+  
+  .card {
+    @apply bg-dark-elevated border border-dark-border rounded-xl p-6 transition-all duration-300 hover:border-brand-indigo-light hover:shadow-lg hover:shadow-brand-indigo/10;
+  }
+  
+  .btn-primary {
+    @apply bg-brand-indigo hover:bg-brand-indigo-light text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:scale-105 active:scale-95;
+  }
+  
+  .btn-secondary {
+    @apply border border-dark-border hover:border-brand-indigo-light text-text-primary px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-dark-elevated;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-brand-indigo via-accent-purple to-brand-indigo-light bg-clip-text text-transparent;
+  }
+  
+  .skill-tag {
+    @apply bg-dark-elevated border border-dark-border px-3 py-2 rounded-lg text-sm font-medium text-text-secondary hover:border-brand-indigo-light hover:text-text-primary transition-all duration-300;
+  }
+  
+  .social-link {
+    @apply w-12 h-12 bg-dark-elevated border border-dark-border rounded-xl flex items-center justify-center text-text-secondary hover:text-text-primary hover:border-brand-indigo-light hover:bg-brand-indigo/10 transition-all duration-300 hover:scale-110;
+  }
+}
