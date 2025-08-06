@@ -10,7 +10,13 @@
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
   },
-  "keywords": ["portfolio", "react", "vite", "tailwind", "developer"],
+  "keywords": [
+    "portfolio",
+    "react",
+    "vite",
+    "tailwind",
+    "developer"
+  ],
   "author": "Aashish Ace",
   "license": "MIT",
   "devDependencies": {
@@ -24,8 +30,9 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
-    "framer-motion": "^11.0.24",
+    "framer-motion": "^11.18.2",
     "lucide-react": "^0.363.0",
+    "razorpay": "^2.9.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-intersection-observer": "^9.8.2"

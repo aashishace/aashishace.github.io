@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { Mail, MessageCircle, MapPin, Calendar } from 'lucide-react'
+import { Mail, MessageCircle, MapPin, Calendar, CreditCard } from 'lucide-react'
+import RazorpayPayment from './RazorpayPayment'
 
 const Contact = () => {
+  const [activeTab, setActiveTab] = useState('contact')
   const { ref, inView } = useInView({
     threshold: 0.2,
     triggerOnce: true
@@ -111,7 +113,7 @@ const Contact = () => {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          {/* Section Header */}
+          {/* Section Header with Tabs */}
           <motion.div variants={itemVariants} className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-text-primary mb-6">
               Let's Work Together
@@ -120,133 +122,204 @@ const Contact = () => {
               I'm always interested in new opportunities, exciting projects, and meaningful collaborations. 
               Let's discuss how we can bring your ideas to life.
             </p>
+            
+            {/* Tab Navigation */}
+            <div className="flex justify-center mb-8">
+              <div className="bg-dark-elevated p-1 rounded-xl border border-dark-border">
+                <button
+                  onClick={() => setActiveTab('contact')}
+                  className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 ${
+                    activeTab === 'contact'
+                      ? 'bg-brand-indigo text-white'
+                      : 'text-text-secondary hover:text-text-primary'
+                  }`}
+                >
+                  Get in Touch
+                </button>
+                <button
+                  onClick={() => setActiveTab('payment')}
+                  className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 flex items-center gap-2 ${
+                    activeTab === 'payment'
+                      ? 'bg-brand-indigo text-white'
+                      : 'text-text-secondary hover:text-text-primary'
+                  }`}
+                >
+                  <CreditCard size={16} />
+                  Make Payment
+                </button>
+              </div>
+            </div>
+            
             <div className="w-20 h-1 bg-gradient-to-r from-brand-indigo to-accent-purple mx-auto rounded-full"></div>
           </motion.div>
 
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
-            
-            {/* Left side - Contact Info */}
-            <motion.div variants={itemVariants} className="space-y-8">
-              <div>
-                <h3 className="text-2xl font-semibold text-text-primary mb-6">
-                  Get In Touch
-                </h3>
-                <p className="text-text-secondary leading-relaxed mb-8">
-                  Whether you have a project in mind, need technical consultation, or just want to connect, 
-                  I'd love to hear from you. I'm currently available for freelance projects and full-time opportunities.
-                </p>
-              </div>
+          {/* Tab Content */}
+          {activeTab === 'contact' ? (
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
+              
+              {/* Left side - Contact Info */}
+              <motion.div variants={itemVariants} className="space-y-8">
+                <div>
+                  <h3 className="text-2xl font-semibold text-text-primary mb-6">
+                    Get In Touch
+                  </h3>
+                  <p className="text-text-secondary leading-relaxed mb-8">
+                    Whether you have a project in mind, need technical consultation, or just want to connect, 
+                    I'd love to hear from you. I'm currently available for freelance projects and full-time opportunities.
+                  </p>
+                </div>
 
-              {/* Contact Methods */}
-              <div className="grid sm:grid-cols-2 gap-6">
-                {contactMethods.map((method, index) => (
-                  <motion.a
-                    key={index}
-                    href={method.action}
-                    variants={itemVariants}
-                    className="block p-6 bg-dark-elevated border border-dark-border rounded-xl hover:border-brand-indigo-light transition-all duration-300 group"
-                    whileHover={{ scale: 1.02 }}
-                  >
-                    <div className={`${method.color} mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                      {method.icon}
-                    </div>
-                    <h4 className="text-lg font-semibold text-text-primary mb-2">
-                      {method.title}
-                    </h4>
-                    <p className="text-text-secondary text-sm mb-2">
-                      {method.description}
-                    </p>
-                    <p className="text-brand-indigo font-medium">
-                      {method.value}
-                    </p>
-                  </motion.a>
-                ))}
-              </div>
-
-              {/* Social Links */}
-              <div>
-                <h4 className="text-lg font-semibold text-text-primary mb-4">
-                  Follow me on social media
-                </h4>
-                <div className="flex gap-4">
-                  {socialLinks.map((social) => (
-                    <a
-                      key={social.name}
-                      href={social.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-link"
-                      aria-label={social.name}
+                {/* Contact Methods */}
+                <div className="grid sm:grid-cols-2 gap-6">
+                  {contactMethods.map((method, index) => (
+                    <motion.a
+                      key={index}
+                      href={method.action}
+                      variants={itemVariants}
+                      className="block p-6 bg-dark-elevated border border-dark-border rounded-xl hover:border-brand-indigo-light transition-all duration-300 group"
+                      whileHover={{ scale: 1.02 }}
                     >
-                      {social.icon}
-                    </a>
+                      <div className={`${method.color} mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                        {method.icon}
+                      </div>
+                      <h4 className="text-lg font-semibold text-text-primary mb-2">
+                        {method.title}
+                      </h4>
+                      <p className="text-text-secondary text-sm mb-2">
+                        {method.description}
+                      </p>
+                      <p className="text-brand-indigo font-medium">
+                        {method.value}
+                      </p>
+                    </motion.a>
                   ))}
                 </div>
-              </div>
-            </motion.div>
 
-            {/* Right side - CTA Card */}
-            <motion.div variants={itemVariants}>
-              <div className="bg-gradient-to-br from-brand-indigo via-brand-indigo-light to-accent-purple p-1 rounded-2xl">
-                <div className="bg-dark-bg rounded-2xl p-8 h-full">
-                  <div className="text-center space-y-6">
-                    <div className="w-20 h-20 bg-gradient-to-r from-brand-indigo to-accent-purple rounded-2xl flex items-center justify-center mx-auto">
-                      <Mail className="w-10 h-10 text-white" />
-                    </div>
-                    
-                    <div>
-                      <h3 className="text-2xl font-bold text-text-primary mb-4">
-                        Ready to Start a Project?
-                      </h3>
-                      <p className="text-text-secondary leading-relaxed mb-8">
-                        I'm excited to learn about your project and explore how we can work together. 
-                        Let's schedule a call to discuss your requirements and see how I can help bring your vision to life.
-                      </p>
-                    </div>
-
-                    <div className="space-y-4">
+                {/* Social Links */}
+                <div>
+                  <h4 className="text-lg font-semibold text-text-primary mb-4">
+                    Follow me on social media
+                  </h4>
+                  <div className="flex gap-4">
+                    {socialLinks.map((social) => (
                       <a
-                        href="mailto:ashishace007@gmail.com"
-                        className="btn-primary w-full flex items-center justify-center gap-2"
-                      >
-                        <Mail size={20} />
-                        Send me an email
-                      </a>
-                      
-                      <div className="text-text-secondary text-sm">
-                        or
-                      </div>
-                      
-                      <a
-                        href="https://www.linkedin.com/in/aashishace"
+                        key={social.name}
+                        href={social.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn-secondary w-full flex items-center justify-center gap-2"
+                        className="social-link"
+                        aria-label={social.name}
                       >
-                        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                        </svg>
-                        Connect on LinkedIn
+                        {social.icon}
                       </a>
-                    </div>
+                    ))}
+                  </div>
+                </div>
+              </motion.div>
 
-                    <div className="pt-6 border-t border-dark-border">
-                      <div className="flex items-center justify-center gap-4 text-sm text-text-secondary">
-                        <div className="flex items-center gap-2">
-                          <div className="w-2 h-2 bg-accent-green rounded-full animate-pulse"></div>
-                          Available for projects
+              {/* Right side - CTA Card */}
+              <motion.div variants={itemVariants}>
+                <div className="bg-gradient-to-br from-brand-indigo via-brand-indigo-light to-accent-purple p-1 rounded-2xl">
+                  <div className="bg-dark-bg rounded-2xl p-8 h-full">
+                    <div className="text-center space-y-6">
+                      <div className="w-20 h-20 bg-gradient-to-r from-brand-indigo to-accent-purple rounded-2xl flex items-center justify-center mx-auto">
+                        <Mail className="w-10 h-10 text-white" />
+                      </div>
+                      
+                      <div>
+                        <h3 className="text-2xl font-bold text-text-primary mb-4">
+                          Ready to Start a Project?
+                        </h3>
+                        <p className="text-text-secondary leading-relaxed mb-8">
+                          I'm excited to learn about your project and explore how we can work together. 
+                          Let's schedule a call to discuss your requirements and see how I can help bring your vision to life.
+                        </p>
+                      </div>
+
+                      <div className="space-y-4">
+                        <a
+                          href="mailto:ashishace007@gmail.com"
+                          className="btn-primary w-full flex items-center justify-center gap-2"
+                        >
+                          <Mail size={20} />
+                          Send me an email
+                        </a>
+                        
+                        <div className="text-text-secondary text-sm">
+                          or
                         </div>
-                        <div className="flex items-center gap-2">
-                          <div className="w-2 h-2 bg-brand-indigo rounded-full"></div>
-                          Quick response
+                        
+                        <a
+                          href="https://www.linkedin.com/in/aashishace"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-secondary w-full flex items-center justify-center gap-2"
+                        >
+                          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                          </svg>
+                          Connect on LinkedIn
+                        </a>
+                      </div>
+
+                      <div className="pt-6 border-t border-dark-border">
+                        <div className="flex items-center justify-center gap-4 text-sm text-text-secondary">
+                          <div className="flex items-center gap-2">
+                            <div className="w-2 h-2 bg-accent-green rounded-full animate-pulse"></div>
+                            Available for projects
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <div className="w-2 h-2 bg-brand-indigo rounded-full"></div>
+                            Quick response
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+              </motion.div>
+            </div>
+          ) : (
+            /* Payment Tab Content */
+            <motion.div
+              variants={itemVariants}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="max-w-4xl mx-auto"
+            >
+              <div className="text-center mb-8">
+                <h3 className="text-2xl font-bold text-text-primary mb-4">
+                  Secure Payment Portal
+                </h3>
+                <p className="text-text-secondary">
+                  Make payments for services, consultations, or project milestones using our secure payment gateway.
+                </p>
+              </div>
+              
+              <RazorpayPayment />
+              
+              <div className="mt-8 text-center">
+                <p className="text-sm text-text-secondary mb-4">
+                  Having trouble with payment? Contact me directly:
+                </p>
+                <div className="flex justify-center gap-4">
+                  <a
+                    href="mailto:ashishace007@gmail.com"
+                    className="text-brand-indigo hover:text-brand-indigo-light transition-colors duration-300"
+                  >
+                    ashishace007@gmail.com
+                  </a>
+                  <span className="text-text-secondary">|</span>
+                  <a
+                    href="https://wa.me/917503294187"
+                    className="text-accent-green hover:text-accent-green-dark transition-colors duration-300"
+                  >
+                    WhatsApp Support
+                  </a>
+                </div>
               </div>
             </motion.div>
-          </div>
+          )}
         </motion.div>
       </div>
     </section>
