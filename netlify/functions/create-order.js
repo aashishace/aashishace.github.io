@@ -28,12 +28,33 @@ exports.handler = async (event, context) => {
   try {
     const { amount, currency = 'INR' } = JSON.parse(event.body)
 
+    // Debug logging
+    console.log('Environment check:', {
+      hasKeyId: !!process.env.RAZORPAY_KEY_ID,
+      hasKeySecret: !!process.env.RAZORPAY_KEY_SECRET,
+      keyIdLength: process.env.RAZORPAY_KEY_ID?.length,
+      amount,
+      currency
+    })
+
     // Validate amount
     if (!amount || amount < 1) {
       return {
         statusCode: 400,
         headers,
         body: JSON.stringify({ error: 'Invalid amount' }),
+      }
+    }
+
+    // Check environment variables
+    if (!process.env.RAZORPAY_KEY_ID || !process.env.RAZORPAY_KEY_SECRET) {
+      console.error('Missing Razorpay credentials in environment variables')
+      return {
+        statusCode: 500,
+        headers,
+        body: JSON.stringify({ 
+          error: 'Server configuration error: Missing payment credentials' 
+        }),
       }
     }
 
