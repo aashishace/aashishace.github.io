@@ -1,0 +1,8 @@
+{
+  "name": "netlify-functions",
+  "version": "1.0.0",
+  "description": "Netlify Functions for Razorpay payment integration",
+  "dependencies": {
+    "razorpay": "^2.9.6"
+  }
+}
