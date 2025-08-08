@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Heart, ArrowUp } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import profileImage from '../assets/1728299807332.jpg'
 
 const Footer = () => {
@@ -152,6 +153,19 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-text-secondary text-sm">
               © {currentYear} Aashish Ace. All rights reserved.
+            </div>
+            
+            {/* Legal Links */}
+            <div className="flex items-center gap-6 text-sm text-text-secondary">
+              <Link to="/terms-and-conditions" className="hover:text-brand-indigo transition-colors duration-300">
+                Terms & Conditions
+              </Link>
+              <Link to="/privacy-policy" className="hover:text-brand-indigo transition-colors duration-300">
+                Privacy Policy
+              </Link>
+              <Link to="/refund-policy" className="hover:text-brand-indigo transition-colors duration-300">
+                Refund Policy
+              </Link>
             </div>
             
             <div className="flex items-center gap-6 text-sm text-text-secondary">
