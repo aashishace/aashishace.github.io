@@ -36,7 +36,6 @@ const Skills = () => {
         { name: "Java", color: "text-orange-400" },
         { name: "Kotlin", color: "text-purple-400" },
         { name: "TypeScript", color: "text-blue-500" },
-        { name: "YAML", color: "text-green-400" },
         { name: "Python", color: "text-green-500" }
       ]
     },
@@ -44,14 +43,12 @@ const Skills = () => {
       title: "Frameworks",
       skills: [
         { name: "Android", color: "text-green-500" },
-        { name: "Astro", color: "text-purple-400" },
-        { name: "EJS", color: "text-gray-400" },
-        { name: "Express", color: "text-gray-300" },
+        { name: "React", color: "text-blue-400" },
+        { name: "Next.js", color: "text-gray-300" },
+        { name: "React Native", color: "text-purple-400" },
         { name: "Flutter", color: "text-blue-400" },
-        { name: "DecapCMS", color: "text-gray-400" },
-        { name: "Astro", color: "text-orange-500" },
-        { name: "VitePress", color: "text-green-400" },
-        { name: "Vue.js", color: "text-green-500" }
+        { name: "Expo", color: "text-gray-300" },
+        { name: "Jetpack Compose", color: "text-green-500" }
       ]
     },
     {
@@ -69,12 +66,14 @@ const Skills = () => {
       ]
     },
     {
-      title: "Hosting Platforms",
+      title: "Data & Platforms",
       skills: [
         { name: "AWS", color: "text-orange-500" },
         { name: "Cloudflare", color: "text-orange-500" },
         { name: "Firebase", color: "text-yellow-500" },
-        { name: "Hostinger", color: "text-purple-500" }
+        { name: "Supabase", color: "text-green-500" },
+        { name: "PostgreSQL", color: "text-blue-400" },
+        { name: "Vercel", color: "text-gray-300" }
       ]
     }
   ]
@@ -139,13 +138,12 @@ const Skills = () => {
           >
             <div className="bg-dark-elevated border border-dark-border rounded-xl p-8 max-w-4xl mx-auto">
               <h3 className="text-xl font-semibold text-text-primary mb-4">
-                Always Learning & Growing
+                Built Around Real Projects
               </h3>
               <p className="text-text-secondary leading-relaxed">
-                Technology evolves rapidly, and so do I. I'm constantly exploring new frameworks, 
-                tools, and methodologies to stay at the forefront of development. Whether it's 
-                diving into the latest mobile development patterns, experimenting with new backend 
-                technologies, or optimizing cloud architectures, learning is a continuous journey.
+                I choose tools around the problem: Next.js and Supabase for business platforms,
+                Firebase for field workflows, and React Native, Flutter or Kotlin for mobile.
+                The focus is clear workflows, practical integrations and software people can use.
               </p>
               
               <div className="flex flex-wrap justify-center gap-4 mt-6">

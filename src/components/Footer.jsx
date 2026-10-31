@@ -93,8 +93,8 @@ const Footer = () => {
               <span className="text-xl font-bold text-text-primary">Aashish Ace</span>
             </div>
             <p className="text-text-secondary leading-relaxed max-w-md">
-              Senior Software Engineer at Directi & Mobile App Specialist passionate about creating innovative 
-              solutions that bridge business needs with cutting-edge technology.
+              Director & Developer at QwickPing. Building web platforms, mobile applications
+              and practical software for business workflows.
             </p>
             <div className="flex items-center gap-2 text-sm text-text-secondary">
               <span>Made with</span>

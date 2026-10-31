@@ -14,6 +14,15 @@
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
     font-optical-sizing: auto;
   }
+
+  section[id] {
+    scroll-margin-top: 5rem;
+  }
+
+  a:focus-visible, button:focus-visible, summary:focus-visible {
+    outline: 2px solid #c8abfa;
+    outline-offset: 4px;
+  }
   
   body {
     @apply font-inter text-base leading-base bg-dark-bg text-text-primary;
@@ -21,6 +30,16 @@
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
   }
+}
+
+.project-details > summary { list-style: none; }
+.project-details > summary::-webkit-details-marker { display: none; }
+.details-plus { display: inline-block; transition: transform 160ms ease; }
+.project-details[open] > summary .details-plus { transform: rotate(45deg); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition-duration: 0.01ms !important; }
 }
 
 @layer components {

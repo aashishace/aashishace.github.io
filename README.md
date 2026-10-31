@@ -2,6 +2,19 @@
 
 A modern, responsive portfolio website built with React, Vite, and Tailwind CSS. Showcasing my work as a Full-Stack Developer & Mobile App Specialist.
 
+The original dark theme is retained. QwickPing is the lead project, followed by
+FieldProof, Oneo Sports, Angrezistan and I Said I Would. Project cards use text
+descriptions and expandable details; earlier work is in the archive.
+
+### Updating portfolio content
+
+- Project descriptions, stacks and links: `src/data/portfolio.js`.
+- Current role and introduction: `src/components/Hero.jsx` and `About.jsx`.
+- Downloadable CV: replace `public/Aashish_Ace_CV.pdf` while keeping that filename.
+- Run `npm run build` before publishing. The postbuild script generates direct
+  legal-page entry points for GitHub Pages.
+- Pushes to `main` build and deploy through `.github/workflows/deploy.yml`.
+
 ## 🚀 Features
 
 - **Modern Design**: Clean, professional design with smooth animations
@@ -40,7 +53,7 @@ src/
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
+- Node.js 22 (matches GitHub Actions)
 - npm or pnpm
 
 ### Installation

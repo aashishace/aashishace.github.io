@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { ChevronDown } from 'lucide-react'
+import { ChevronDown, Download } from 'lucide-react'
 import profileImage from '../assets/1728299807332.jpg'
 
 const Hero = () => {
@@ -9,7 +9,7 @@ const Hero = () => {
   }
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-28 pb-24 lg:pb-32">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-dark-bg via-dark-bg-alt to-dark-elevated" />
       
@@ -46,10 +46,10 @@ const Hero = () => {
               className="mb-6"
             >
               <p className="text-lg md:text-xl text-text-secondary mb-4">
-                M.Sc IT with expertise in #Android, #Python,
+                Full-stack & mobile developer building
               </p>
               <p className="text-lg md:text-xl text-text-secondary">
-                #Flutter, #Firebase, #NodeJS & #React.
+                web platforms, apps and business workflows.
               </p>
             </motion.div>
 
@@ -60,8 +60,8 @@ const Hero = () => {
               className="mb-8"
             >
               <div className="inline-block bg-dark-elevated border border-dark-border rounded-lg px-4 py-2">
-                <span className="text-text-secondary text-sm">Currently Senior Software Engineer @ </span>
-                <span className="text-brand-indigo font-medium">Directi</span>
+                <span className="text-text-secondary text-sm">Currently Director & Developer @ </span>
+                <a href="https://qwickping.com" target="_blank" rel="noopener noreferrer" className="text-accent-purple font-medium hover:text-white transition-colors">QwickPing</a>
               </div>
             </motion.div>
 
@@ -69,7 +69,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.8 }}
-              className="flex flex-wrap gap-4 justify-center lg:justify-start"
+              className="grid grid-cols-2 sm:flex sm:flex-wrap gap-3 sm:gap-4 justify-center lg:justify-start max-w-sm sm:max-w-none mx-auto lg:mx-0"
             >
               <button 
                 onClick={scrollToAbout}
@@ -84,10 +84,10 @@ const Hero = () => {
                 Work
               </button>
               <button 
-                onClick={() => document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.querySelector('#skills')?.scrollIntoView({ behavior: 'smooth' })}
                 className="btn-secondary"
               >
-                Blog
+                Skills
               </button>
               <button 
                 onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
@@ -96,6 +96,14 @@ const Hero = () => {
                 Contact
               </button>
             </motion.div>
+            <a
+              href="/Aashish_Ace_CV.pdf"
+              download
+              className="inline-flex items-center gap-2 mt-6 text-sm font-medium text-accent-purple hover:text-text-primary transition-colors"
+            >
+              <Download size={16} aria-hidden="true" />
+              Download CV <span className="text-text-secondary text-xs">(PDF)</span>
+            </a>
           </motion.div>
 
           {/* Right side - Profile image */}
@@ -107,7 +115,7 @@ const Hero = () => {
           >
             <div className="relative">
               {/* Profile image container with glow effect */}
-              <div className="relative w-80 h-80 lg:w-96 lg:h-96">
+              <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
                 <div className="absolute inset-0 bg-gradient-to-r from-brand-indigo via-accent-purple to-brand-indigo-light rounded-full p-1 animate-pulse">
                   <div className="w-full h-full bg-dark-bg rounded-full p-4">
                     <img
@@ -141,7 +149,7 @@ const Hero = () => {
                 animate={{ x: [-5, 5, -5] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
               >
-                <span className="text-sm font-medium text-accent-purple">🔥 Solopreneur, Ad-Tech</span>
+                <span className="text-sm font-medium text-accent-purple">🔥 Product & Development</span>
               </motion.div>
 
               <motion.div
@@ -157,7 +165,7 @@ const Hero = () => {
 
         {/* Scroll indicator */}
         <motion.div
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+          className="hidden lg:block absolute -bottom-24 left-1/2 transform -translate-x-1/2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.2 }}

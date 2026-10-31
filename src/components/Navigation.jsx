@@ -17,7 +17,7 @@ const Navigation = () => {
 
   const navItems = [
     { name: 'Me', href: '#hero' },
-    { name: 'Blog', href: '#about' },
+    { name: 'About', href: '#about' },
     { name: 'Work', href: '#projects' },
     { name: 'Contact', href: '#contact' },
   ]
@@ -40,6 +40,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <button 
               onClick={() => scrollToSection('#hero')}
+              aria-label="Back to home"
               className="text-xl font-bold text-text-primary hover:text-brand-indigo transition-colors duration-300"
             >
               <div className="w-10 h-10 bg-gradient-to-r from-brand-indigo to-accent-purple rounded-lg flex items-center justify-center overflow-hidden">
@@ -106,6 +107,9 @@ const Navigation = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-navigation"
               className="text-text-primary hover:text-brand-indigo transition-colors duration-300"
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -115,7 +119,7 @@ const Navigation = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-dark-bg border-b border-dark-border">
+          <div id="mobile-navigation" className="md:hidden absolute top-full left-0 right-0 bg-dark-bg border-b border-dark-border">
             <div className="py-4 space-y-4">
               {navItems.map((item) => (
                 <button

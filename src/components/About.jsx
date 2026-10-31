@@ -55,17 +55,24 @@ const About = () => {
                   Full-Stack Developer & Mobile App Specialist
                 </h3>
                 <p className="text-text-secondary leading-relaxed">
-                  I'm a passionate developer with an M.Sc IT background and strong technical expertise across 
-                  mobile app development, full-stack web applications, and modern cloud technologies.
+                  I build mobile applications and full-stack web platforms, with an M.Sc IT background
+                  and experience connecting interfaces, data and business workflows.
                 </p>
               </div>
 
               <div>
                 <p className="text-text-secondary leading-relaxed">
-                  Currently working as a Senior Software Engineer at Directi, I specialize in creating innovative solutions 
-                  that bridge the gap between business needs and technical excellence. My experience includes building 
-                  scalable mobile applications, robust backend systems, and intuitive user interfaces.
+                  I'm currently Director & Developer at QwickPing, working across product direction and
+                  hands-on development. My work spans business messaging, custom commerce, field operations
+                  and mobile learning, including FieldProof, Oneo Sports and Angrezistan.
                 </p>
+              </div>
+
+              <div className="border-l-2 border-brand-indigo pl-4 py-1">
+                <p className="text-xs font-medium text-accent-purple mb-2">Previous role · 2023–2025</p>
+                <h4 className="text-base font-semibold text-text-primary mb-1">Senior Full-Stack Software Engineer</h4>
+                <p className="text-sm text-text-secondary mb-2">Directi Internet Solutions Pvt Ltd</p>
+                <p className="text-sm leading-relaxed text-text-secondary">Full-stack application development, microservices and API integration.</p>
               </div>
 
               <div>
@@ -103,8 +110,8 @@ const About = () => {
                   <div>
                     <h4 className="text-lg font-semibold text-text-primary mb-2">Mobile Apps</h4>
                     <p className="text-text-secondary text-sm leading-relaxed">
-                      Building multi-platform Mobile Apps using React Native, Flutter, and native Android/iOS development 
-                      with seamless user experiences and performance optimization.
+                    Building mobile applications using React Native, Flutter and native Android,
+                      with attention to clear workflows, local storage and device behavior.
                     </p>
                   </div>
                 </div>
@@ -117,11 +124,10 @@ const About = () => {
                     <span className="text-white font-bold">🌐</span>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-text-primary mb-2">Google Certified Developer</h4>
+                    <h4 className="text-lg font-semibold text-text-primary mb-2">Native Android & Architecture</h4>
                     <p className="text-text-secondary text-sm leading-relaxed">
-                      Proficient in Android app development and architecture, 
-                      with expertise in modern Android Architecture Components and Jetpack libraries. Certified for Google 
-                      Certifications.
+                      Building with Kotlin, Jetpack Compose, Room and CameraX, including
+                      local-first storage, barcode workflows and device-aware behavior.
                     </p>
                   </div>
                 </div>
@@ -134,10 +140,10 @@ const About = () => {
                     <span className="text-white font-bold">⚡</span>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-text-primary mb-2">Backend, Frontend</h4>
+                    <h4 className="text-lg font-semibold text-text-primary mb-2">Backend & Frontend</h4>
                     <p className="text-text-secondary text-sm leading-relaxed">
-                      Familiar with WordPress, Ghost, Vue.js and Appwrite, 
-                      for rapid prototyping to Internet and modern projects.
+                      Connecting React and Next.js interfaces with Supabase, Firebase, APIs and
+                      business rules across full-stack applications.
                     </p>
                   </div>
                 </div>
@@ -150,10 +156,10 @@ const About = () => {
                     <span className="text-white font-bold">🚀</span>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-text-primary mb-2">Solopreneur, Ad-Tech Consultant</h4>
+                    <h4 className="text-lg font-semibold text-text-primary mb-2">Product & Development</h4>
                     <p className="text-text-secondary text-sm leading-relaxed">
-                      Experience with Google Play, AdMob, Firebase and cutting-edge ad-tech platforms, policy compliance, 
-                      and revenue policy compliance.
+                      Working across product direction and hands-on development at QwickPing,
+                      from messaging workflows to teams, integrations and billing.
                     </p>
                   </div>
                 </div>

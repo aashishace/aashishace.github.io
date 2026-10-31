@@ -57,10 +57,10 @@ const Contact = () => {
     },
     {
       icon: <MapPin className="w-6 h-6" />,
-      title: "Response Time",
-      description: "I'll get back to you",
-      value: "Within 24 hours",
-      action: "#",
+      title: "Project Inquiry",
+      description: "Share what you're building",
+      value: "Let's discuss the scope",
+      action: "mailto:ashishace007@gmail.com?subject=Project%20inquiry",
       color: "text-accent-yellow"
     }
   ]
@@ -164,8 +164,8 @@ const Contact = () => {
                     Get In Touch
                   </h3>
                   <p className="text-text-secondary leading-relaxed mb-8">
-                    Whether you have a project in mind, need technical consultation, or just want to connect, 
-                    I'd love to hear from you. I'm currently available for freelance projects and full-time opportunities.
+                    If you have a product, integration or technical challenge in mind, share the context.
+                    We can discuss the scope, priorities and the right way to work together.
                   </p>
                 </div>
 

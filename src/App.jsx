@@ -1,5 +1,6 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { MotionConfig } from 'framer-motion'
+import { BrowserRouter as Router, HashRouter, Routes, Route } from 'react-router-dom'
 import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
@@ -11,11 +12,15 @@ import TermsAndConditions from './components/TermsAndConditions'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import RefundPolicy from './components/RefundPolicy'
 
+// Downloadable previews use hash routing; hosted URLs keep the existing router.
+const PortfolioRouter = window.location.protocol === 'file:' ? HashRouter : Router
+
 // Main Portfolio Page Component
 const PortfolioPage = () => (
-  <>
+  <MotionConfig reducedMotion="user">
+    <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-dark-elevated focus:text-text-primary focus:px-5 focus:py-3 focus:rounded-lg">Skip to content</a>
     <Navigation />
-    <main>
+    <main id="main-content">
       <Hero />
       <About />
       <Skills />
@@ -23,12 +28,12 @@ const PortfolioPage = () => (
       <Contact />
     </main>
     <Footer />
-  </>
+  </MotionConfig>
 )
 
 function App() {
   return (
-    <Router>
+    <PortfolioRouter>
       <div className="min-h-screen bg-dark-bg">
         <Routes>
           {/* Main Portfolio Page */}
@@ -40,7 +45,7 @@ function App() {
           <Route path="/refund-policy" element={<RefundPolicy />} />
         </Routes>
       </div>
-    </Router>
+    </PortfolioRouter>
   )
 }
 
